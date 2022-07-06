@@ -1,6 +1,7 @@
 import random
 from rich.prompt import Confirm
 
+
 def get_random_line(file: str) -> str:
     line_num = 0
     selected = ""
